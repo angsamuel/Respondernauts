@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MainCamera.cs" />
     <Compile Include="Assets\MissionsManager.cs" />
     <Compile Include="Assets\Scripts\ApplicationsManager.cs" />
     <Compile Include="Assets\Scripts\Mission.cs" />
@@ -84,6 +85,8 @@
     <Compile Include="Assets\Scripts\Skill.cs" />
     <Compile Include="Assets\Scripts\SquadManager.cs" />
     <Compile Include="Assets\Scripts\ViewManager.cs" />
+    <Compile Include="Assets\TacticsController.cs" />
+    <Compile Include="Assets\Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Words\adj.txt" />

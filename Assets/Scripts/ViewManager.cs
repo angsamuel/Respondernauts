@@ -8,6 +8,8 @@ public class ViewManager : MonoBehaviour {
     public GameObject applications_panel;
     public GameObject squad_panel;
     public GameObject missions_panel;
+
+    public GameObject missions_manager;
     // Use this for initialization
     void Start () {
         OpenApplicationsPanel();
@@ -37,5 +39,6 @@ public class ViewManager : MonoBehaviour {
     {
         HidePanels();
         missions_panel.transform.position = new Vector3(0, 0, 0);
+        missions_manager.GetComponent<MissionsManager>().FillMissionDetails(0);
     }
 }
