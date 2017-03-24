@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Respondernauts", "Respondernauts.csproj", "{608ABFB2-BA7D-9C15-1248-D1E3D457FB0F}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Respondernauts", "Assembly-CSharp.csproj", "{A87F6079-8631-4E35-7F34-A35ABCEFE79F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{608ABFB2-BA7D-9C15-1248-D1E3D457FB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{608ABFB2-BA7D-9C15-1248-D1E3D457FB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{608ABFB2-BA7D-9C15-1248-D1E3D457FB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{608ABFB2-BA7D-9C15-1248-D1E3D457FB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87F6079-8631-4E35-7F34-A35ABCEFE79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87F6079-8631-4E35-7F34-A35ABCEFE79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87F6079-8631-4E35-7F34-A35ABCEFE79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87F6079-8631-4E35-7F34-A35ABCEFE79F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

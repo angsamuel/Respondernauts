@@ -7,6 +7,8 @@ public class TacticsController : MonoBehaviour {
     public GameObject exit;
     public Camera cam;
 
+	public TacticalUIHolder tuih;
+
     //pixels per unit and scale, needed for camera 
     public float ppuScale = 1f;
     public int ppu = 32;
@@ -72,6 +74,10 @@ public class TacticsController : MonoBehaviour {
         }
 	}
 
+	void LateUpdate(){
+		
+
+	}
 
 
     void GenerateLevel()
@@ -109,7 +115,6 @@ public class TacticsController : MonoBehaviour {
 
                 spawnedTile.GetComponent<SpriteRenderer>().color = baseColor;
 
-                
                 float change = Random.Range(-0.01f, 0.01f);
                 float red = spawnedTile.GetComponent<SpriteRenderer>().color.r + change;
                 float green = spawnedTile.GetComponent<SpriteRenderer>().color.g + change;// + Random.Range(0.05f, 0.1f);
